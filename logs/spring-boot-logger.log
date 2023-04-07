@@ -843,3 +843,37 @@ java.lang.NullPointerException: Cannot invoke "com.happytech.electronicstore.Ser
 2023-04-07 17:42:47,402 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-04-07 17:42:47,421 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-04-07 17:42:47,633 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-04-07 17:43:15,153 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-04-07 17:43:15,183 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-OKPVI97 with PID 9104 (F:\IntelliJ electronic stord\Electronic-Store\target\classes started by Mahendra Nikam in F:\Inettige_workspace\happytech)
+2023-04-07 17:43:15,185 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-04-07 17:43:15,188 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2023-04-07 17:43:15,791 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-07 17:43:15,812 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-07 17:43:18,755 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-07 17:43:19,002 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 210 ms. Found 3 JPA repository interfaces.
+2023-04-07 17:43:21,843 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8787 (http)
+2023-04-07 17:43:21,883 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8787"]
+2023-04-07 17:43:21,885 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-07 17:43:21,886 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-04-07 17:43:22,239 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-07 17:43:22,242 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6427 ms
+2023-04-07 17:43:22,922 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-07 17:43:23,080 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-07 17:43:23,652 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-07 17:43:24,050 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-04-07 17:43:25,078 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-04-07 17:43:25,132 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-04-07 17:43:27,870 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-07 17:43:27,900 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-07 17:43:30,333 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-07 17:43:31,751 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-07 17:43:31,810 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8787"]
+2023-04-07 17:43:31,884 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8787 (http) with context path ''
+2023-04-07 17:43:31,918 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ElectronicStoreApplication in 18.422 seconds (JVM running for 22.129)
+2023-04-07 17:43:48,207 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8787-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-07 17:43:48,209 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8787-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-04-07 17:43:48,212 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8787-exec-2] Completed initialization in 3 ms
+2023-04-07 17:43:48,873 INFO com.happytech.electronicstore.controller.ProductController [http-nio-8787-exec-2] Intiating request to Create Product
+2023-04-07 17:43:49,440 INFO com.happytech.electronicstore.controller.ProductController [http-nio-8787-exec-2] Completed request to create the Product
+2023-04-07 17:44:55,462 INFO com.happytech.electronicstore.controller.ProductController [http-nio-8787-exec-5] Intiating request to Create Product
+2023-04-07 17:44:55,527 INFO com.happytech.electronicstore.controller.ProductController [http-nio-8787-exec-5] Completed request to create the Product
